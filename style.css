@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, .Contact {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8%;
+    background-color: #1f2937;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+body, html{
+    height: 100%;
+}
+
+.title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(148, 145, 145, 0.171), rgba(145, 145, 145, 0.171)), url("https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text{
+text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-weight: 500;
+  padding-bottom: 15px;
+  padding-right: 10px;
+
+}
+
+.contact-me {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    color: #ffffff;
+    background-color: rgb(1, 29, 36);
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.Logo {
+    cursor: pointer;
+    color: #edf0f1;
+}
+
+.links {
+    list-style: none;
+    padding-right: 115px;
+}
+
+.links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.links li a:hover {
+    color: #0088a9;
+}
+
+.Contact {
+    padding: 9px 25px;
+    background-color: rgb(1, 29, 36);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.Contact:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+footer {
+    display: flex;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+}
+
+.header-logo {
+    width: 200px;
+}
+
+.content-portofoliu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-portofoliu img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 5px 20px 0px 20px;
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(177, 174, 174, 0.63);
+    padding: 0px 200px;
+    margin-top: 30px;
+}
+
+.quote p {
+    font-size: 34px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-top: 30px;
+}
+
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: right;
+
+}
+
+.text {
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.portofoliu h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sign-up {
+    margin: 50px 200px;
+    padding: 10px 80px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+    background-color: #1f2937;
+
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.signs-text {
+    text-align: left;
+}
+
+.signs-text p {
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+.signs-text h3 {
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.signs-button button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #1f2937;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+
