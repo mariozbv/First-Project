@@ -226,4 +226,10 @@ body {
     font-size: 15px;
 }
 
+.header-logo {
+    color: #ffffff;
+    text-align: left;
+    font-size: 48px;
+    font-weight: lighter;
+}
 
